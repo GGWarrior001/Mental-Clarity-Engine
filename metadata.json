@@ -1,6 +1,9 @@
 {
-  "name": "",
-  "description": "",
+  "name": "Mental Clarity Engine",
+  "description": "AI-powered brain dump organizer that turns mental clutter into prioritized action.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "text-generation",
+    "structured-output"
+  ]
 }

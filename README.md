@@ -87,7 +87,7 @@ Stop drowning in your to-do list. One dump, instant clarity.
    ```
    Then open `.env.local` and set:
    ```env
-   GEMINI_API_KEY="your_gemini_api_key_here"
+   VITE_GEMINI_API_KEY="your_gemini_api_key_here"
    ```
 
 4. **Start the development server:**
@@ -143,7 +143,8 @@ Mental-Clarity-Engine/
 
 | Variable | Required | Description |
 |---|---|---|
-| `GEMINI_API_KEY` | ✅ Yes | Your Google Gemini API key. Get one at [aistudio.google.com](https://aistudio.google.com/apikey). |
+| `VITE_GEMINI_API_KEY` | ✅ Yes | Your Google Gemini API key. Get one at [aistudio.google.com](https://aistudio.google.com/apikey). |
+| `VITE_GEMINI_MODEL` | Optional | Gemini model override. Defaults to `gemini-2.5-flash`. |
 | `APP_URL` | Optional | The URL where the app is hosted (used in cloud deployments). |
 
 > **Note:** When deployed via Google AI Studio, these variables are injected automatically from your project secrets.
